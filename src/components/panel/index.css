@@ -1,0 +1,56 @@
+
+.sr-panel {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.sr-panel h3 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.sr-panel header {
+  position: relative;
+  padding: 12px 0px 12px 14px;
+  background: #ededef;
+  border-bottom: 1px solid #ccc;
+}
+
+.sr-panel-count {
+  color: #fff;
+  font-weight: 800;
+  background: #2594bf;
+  display: inline-block;
+  border-radius: 14px;
+  float: left;
+  padding: 1px 7px;
+  margin: -5px 0px 0px 2px;
+}
+
+.sr-panel header h3 {
+  float: left;
+}
+
+.sr-panel header a {
+  float: left;
+  color: #6e9dc7;
+  margin: 3px 0px 0px 15px;
+}
+
+.sr-panel-indicator {
+  cursor: pointer;
+  right: 25px;
+  position: absolute;
+  font-size: 24px;
+}
+
+.sr-panel-main {
+  max-height: 500px;
+  transition: max-height 2s ease-out;
+}
+
+.sr-panel.collapsed .sr-panel-main {
+  max-height: 0px;
+  transition: max-height 2s ease-in;
+}

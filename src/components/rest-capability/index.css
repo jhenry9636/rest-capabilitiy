@@ -1,0 +1,38 @@
+.sr-rest-capability table {
+  width: 100%;
+}
+
+.sr-rest-capability tbody tr td.footer-container {
+  margin-top: 15px;
+  padding: 12px 0px;
+  border-top: 1px solid #ccc;
+}
+
+.sr-capability-details .fa {
+  cursor: pointer;
+  margin-left: 5px;
+  color: #2594bf;
+  font-size: 17px;
+}
+
+.sr-rest-capability tbody tr td.footer-container:first-child {
+  text-align: center;
+}
+
+.sr-rest-capability tbody tr td:first-child {
+ text-align: left;
+  padding-left: 8px;
+}
+.sr-rest-capability tbody tr td:nth-child(2) {
+  text-align: right;
+}
+
+.sr-rest-capability tbody tr td:nth-child(3) {
+  text-align: right;
+}
+
+.sr-param-header {
+  cursor: pointer;
+  display: inline-block;
+  padding: 15px 5px 0px 5px;
+}
